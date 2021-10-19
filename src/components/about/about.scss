@@ -1,0 +1,17 @@
+@import '../app/app.scss';
+
+.about{
+    @include flexible();
+    padding-top: 80px;
+    
+        .vector{
+            margin-bottom: 40px;
+        }
+
+        .about_content{
+            text-align: center;
+            max-width: 560px;
+            margin-bottom: 100px;
+        }
+
+}

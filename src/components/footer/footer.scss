@@ -1,0 +1,18 @@
+@import '../app/app.scss';
+
+
+.footer{
+    @include flexible();
+    padding-top: 30px;
+
+        .footer_nav{
+            margin-bottom: 30px;
+        }
+
+        .vector{
+            margin-bottom: 30px;
+        }
+   
+       
+}
+

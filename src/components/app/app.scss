@@ -1,0 +1,9 @@
+$whiteColor: rgb(255, 255, 255);
+$blackColor: rgb(0, 0, 0);
+
+@mixin flexible () {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
